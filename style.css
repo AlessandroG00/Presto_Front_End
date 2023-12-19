@@ -1,7 +1,11 @@
 * {
     font-family: 'Urbanist', sans-serif;
 }
+.mt-custom {
+    margin-top: 150px;
+}
 
+/* Navbar */
 #navbar {
     transition: .5s;
 }
@@ -9,4 +13,16 @@
 .btn-primary-custom {
     background-color: #2a2a2a;
     padding: 5px, 10px;
+}
+
+.btn-primary-custom:hover {
+    color: #2a2a2a !important;
+    border: 2px solid #2a2a2a;
+}
+
+.card-custom {
+    width: 250px;
+    height: 250px;
+    background-color: darkgrey;
+    border-radius: 15px;
 }

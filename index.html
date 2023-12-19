@@ -3,6 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Presto JS</title>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- CDN Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Google font -->
@@ -10,7 +13,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <title>Presto JS</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -34,21 +36,60 @@
                 </ul>
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <button class="btn btn-primary-custom" id="btnPrimary"><i class="fa-solid fa-shop"></i>Inizia a vendere</button>
+                        <button class="btn btn-primary-custom" id="btnPrimary"><i class="fa-solid fa-shop"></i> Inizia a vendere</button>
                     </li>
                     
                 </ul>
-
+                
                 
             </div>
         </div>
     </nav>
-
     <!-- Fine nav bar -->
-    <div style="height: 1200px;"></div>
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="./script.js"></script>
-    
-</body>
-</html>
+    <!-- header -->
+    <header class="container mt-custom">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h1 class="mb-5">Un mondo di prodotti in un solo click.</h1>
+                <button class="btn btn-primary-custom text-white">
+                    <i class="fa-solid fa-shop"></i> Inizia a vendere</button>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="./media/kisspng-stock-photography-vector-graphics-illustration-ima-people-happy-writing-5bd361ce293890.5177116515405797901689.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </header>
+        <!-- Fine header -->
+        
+        <section class="container my-5">
+            <div class="row">
+                <div class="col-12 col-md-4" data-aos="fade-down">
+                    <div class="card-custom">
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-4" data-aos="fade-up">
+                    <div class="card-custom">
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-4" data-aos="fade-down">
+                    <div class="card-custom">
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        
+        
+        <div style="height: 1200px;"></div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <!-- AOS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="./script.js"></script>
+        
+    </body>
+    </html>
