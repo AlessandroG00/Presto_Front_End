@@ -23,6 +23,8 @@ window.addEventListener('scroll',() => {
     }
 })
 
+
+//  Counter
 document.querySelector('#number1');
 document.querySelector('#number2');
 document.querySelector('#number3');
@@ -59,6 +61,7 @@ let observer = new IntersectionObserver((entries) =>{
 })
 
 observer.observe(number1);
+
 
 
 
