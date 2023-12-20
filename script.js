@@ -23,4 +23,46 @@ window.addEventListener('scroll',() => {
     }
 })
 
+document.querySelector('#number1');
+document.querySelector('#number2');
+document.querySelector('#number3');
+
+function createInterval(finalN, element, frequency) {
+    let counter = 0;
+    
+    let interval = setInterval(()=>{
+        if(counter<finalN){
+            counter++;
+            element.innerHTML = counter;
+        } else {
+            clearInterval(interval);
+        }
+    }, frequency)
+}
+
+let confirm = false;
+let observer = new IntersectionObserver((entries) =>{
+    entries.forEach((entry)=>{
+        if(entry.isIntersecting && confirm == false){
+            createInterval(900, number1, 1);
+            createInterval(1200, number2, 1);
+            createInterval(1000, number3, 1);
+
+            confirm = true;
+
+            setTimeout(()=>{
+                confirm = false;
+
+            },8000)
+        }
+    })
+})
+
+observer.observe(number1);
+
+
+
+
+
+
 AOS.init();
