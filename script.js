@@ -62,6 +62,64 @@ let observer = new IntersectionObserver((entries) =>{
 
 observer.observe(number1);
 
+//annunci
+ 
+const cardsWrapper = document.querySelector('#cardsWrapper');
+
+
+let announcements = [
+    { 'title' : 'Play-station-5', 'category' : 'Elettronica', 'price' : 500, 'url' : './media/ps5.jpg' ,},
+    { 'title' : 'Nike x Off-white', 'category' : 'Abbigliamento', 'price' : 500, 'url' : './media/shoes.jpg',},
+    { 'title' : 'Call of duty mw3', 'category' : 'Elettronica', 'price' : 40, 'url' : './media/mw3.ico',},
+    { 'title' : 'Orologio G-shock', 'category' : 'Orologi', 'price' : 300, 'url' : './media/g-shock-metal-covered-casioak-gm-2100-1aer-12957711.jpg',},
+    { 'title' : 'Babolat Technical', 'category' : 'Sport', 'price' : 300, 'url' : './media/racchetta.jpg',},
+]
+
+announcements.forEach((annuncio, index) => {
+    if(index >= announcements.length - 3){
+    let div = document.createElement('div');
+    div.classList.add('col-12','col-md-4', 'd-flex', 'justify-content-center');
+    div.innerHTML = `
+    <div class="product-card-custom shadow p-3 mb-5 bg-white rounded">
+    <div class="icon-container">
+    <i class="fa-regular fa-heart fs-3"></i>
+    </div>
+    <img src="${annuncio.url}" alt="" class="img-fluid mb-3 card-img">
+    <div class="d-flex justify-content-between align-items-start">
+    <div>
+    <p class="fw-bold fs-4 mb-0">${annuncio.title}</p>
+    <p class="fst-italic">${annuncio.category}</p>
+    </div>
+    <p class="price-tag">$ ${annuncio.price}</p>
+    </div>
+    </div>
+    `
+    cardsWrapper.appendChild(div)
+    }
+})
+
+const iconHearts = document.querySelectorAll('.fa-heart');
+const cardImgs = document.querySelectorAll('.card-img');
+
+iconHearts.forEach((icon) => {
+    icon.addEventListener('click', () => {
+        icon.classList.toggle('fa-solid');
+        icon.classList.toggle('text-danger');  
+    })
+})
+
+cardImgs.forEach((cardImg, i) => {
+    cardImg.addEventListener('dblclick', () => {
+        iconHearts[i].classList.add('fa-solid');
+        iconHearts[i].classList.add('text-danger');
+    })
+})
+
+
+
+
+
+
 
 
 

@@ -13,11 +13,13 @@
 .btn-primary-custom {
     background-color: #2a2a2a;
     padding: 5px, 10px;
+    border: 2x solid #2a2a2a;
 }
 
 .btn-primary-custom:hover {
-    color: #2a2a2a !important;
+    background-color: #ffffff !important;
     border: 2px solid #2a2a2a;
+    color: #2a2a2a !important;
 }
 
 .card-custom {
@@ -27,4 +29,36 @@
     border-radius: 15px;
 }
 
-/* section annunci */
+/* section ultimi annunci */
+
+.product-card-custom {
+    border: 2px solid #ececec;
+    padding: 20px;
+    width: 100%;
+    max-width: 296px;
+    border-radius: 25px;
+}
+
+.price-tag {
+    background-color: #ececec;
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.icon-container > i {
+    cursor: pointer;
+    color: #2a2a2a;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: end;
+}
+
+.announcements-container {
+    background-color: #f1f5f9;
+    border-radius: 50px;
+    height: 60vh;
+}
