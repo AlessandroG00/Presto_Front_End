@@ -4,6 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Presto JS</title>
+    <!-- swiper js -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- CDN Font Awesome -->
@@ -119,14 +124,32 @@
             </div>
         </section>
         <!-- Fine seection annunci -->
-        
-        
-        <div style="height: 1200px;"></div>
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-        <!-- AOS -->
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script src="./script.js"></script>
-        
-    </body>
-    </html>
+        <!-- Sezione recensioni -->
+        <section class="container mt-custom">
+            <div class="row justify-content-center">
+                <h2 class="text-center mb-5">Le vostre opinioni</h2>
+                <div class="col-12 col-md-8">
+                    <!-- swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper" id="reviewsWrapper">
+                            
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    
+                    </div>
+                </div>
+            </section>
+            
+            <div style="height: 1200px;"></div>
+            
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+            <!-- AOS -->
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <!-- swiper js -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+            <!-- script js -->
+            <script src="./script.js"></script>
+            
+        </body>
+        </html>

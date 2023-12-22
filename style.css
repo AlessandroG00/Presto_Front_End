@@ -62,3 +62,38 @@
     border-radius: 50px;
     height: 60vh;
 }
+
+/* review section */
+
+.review-card {
+    border: 2px solid #ececec;
+    padding: 30px;
+    border-radius: 25px;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.star-container > i {
+    font-size: larger;
+}
+
+/* swiper */
+.swiper {
+width: 100%;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.swiper-slide {
+background-position: center;
+background-size: cover;
+/* width: 300px;
+height: 300px; */
+}
+
+/* .swiper-slide img {
+display: block;
+width: 100%;
+} */

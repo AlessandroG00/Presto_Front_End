@@ -115,13 +115,96 @@ cardImgs.forEach((cardImg, i) => {
     })
 })
 
+/* Reviews */
+const reviewsWrapper = document.querySelector('#reviewsWrapper');
+
+
+let reviews = [
+    {'name' : 'Matteo', 'review' : 'Mi sono trovato benissimo con presto', 'rank' : 4.5, 'url' : '/media/Size=05.png'},
+    {'name' : 'Federico', 'review' : 'Ottimi prodotti servizio spedizione veloce', 'rank' : 5, 'url' : '/media/Size=05.png'},
+    {'name' :'Alessandro', 'review' :'Serviizo assistenza clienti eccellente', 'rank' : 4, 'url' : '/media/Size=05.png'},
+    {'name' : 'Giovanni', 'review' :'Non mi è piaciuto il servizio spezione', 'rank' : 2, 'url' : '/media/Size=05.png'},
+]
+
+reviews.forEach((review) => {
+    let div = document.createElement('div');
+    div.classList.add('swiper-slide');
+    div.innerHTML = `
+    <div class="review-card">
+                        <div class="star-container d-flex justify-content-center mb-4">
+                            ${generateStar(review.rank)}
+                        </div>
+                        <p>${review.review}</p>
+                            <div class="d-flex">
+                                <img src="${review.url}" alt="">
+                                <p class="ms-3 fw-bold">${review.name}</p>
+                            </div>
+                        </div>
+    `
+
+    reviewsWrapper.appendChild(div)
+})
+
+let starContainer = document.querySelectorAll('.star-container')
+
+/* Primo metodo */
+// starContainer.forEach((wrapper, i) => {
+    // let voto = reviews[i].rank
+    /* stelle piene */
+    // for(let i = 1; i <= voto; i++ ) {
+        //let icon = document.createElement('i');
+         //icon.classList.add('fa-solid', 'fa-star')
+        // wrapper.appendChild(icon)
+    // }
+    /* stelle vuote */
+    //if(voto < 5){
+        //let resto = 5 - voto;
+        //for(let i = 1; i <= resto; i++ ) {
+            //let icon = document.createElement('i');
+            //icon.classList.add('fa-regular', 'fa-star')
+            //wrapper.appendChild(icon)
+        //}
+    //}
+    //})  
+
+    function generateStar(rank){
+    let result = ''
+    
+        for (let i = 1; i <= 5; i++) {
+            if(rank == 0.5){
+            result += '<i class="fa-regular fa-star-half-stroke"></i>'
+            rank = 0
+        } else if (rank > 0){
+            result += '<i class="fa-solid fa-star"></i>'
+            rank--
+        } else {
+            result += '<i class="fa-regular fa-star"></i>'
+        }
+    }
+    return result
+}
 
 
 
 
+/* swiper js */
 
-
-
+let swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+    rotate: 50,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: false,
+    },
+    pagination: {
+    el: ".swiper-pagination",
+    },
+});
 
 
 
