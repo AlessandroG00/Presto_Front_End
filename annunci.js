@@ -29,19 +29,44 @@ window.addEventListener('scroll',() => {
 fetch('./annunci2.json')
 .then((response) => response.json())
 .then((data) => {
-    
+
+    let categoriesWrapper = document.querySelector('#categoriesWrapper');
     let cardsWrapper = document.querySelector('#cardsWrapper');
+
+    function setCategoryRadios(){
+        let categories = data.map((el) => el.category)
+
+        let uniqueCategories = [];
+        categories.forEach((category) =>{
+            if(!uniqueCategories.includes(category)) {
+                uniqueCategories.push(category)
+            }
+        })
+        uniqueCategories.forEach((category)=>{
+            let div = document.createElement('div');
+            div.classList.add('form-check');
+            div.innerHTML = `
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="${category}">
+            <label class="form-check-label" for="${category}">
+            ${category}
+            </label>   
+            `
+            categoriesWrapper.appendChild(div)
+        })
+    }
+
+    setCategoryRadios()
     
     function showCards(array){
         array.forEach((element) => {
             let div = document.createElement('div');
-            div.classList.add('col-12', 'col-md-6', 'd-flex', 'justify-content-center');
+            div.classList.add('col-12', 'col-md-4', 'd-flex', 'justify-content-center');
             div.innerHTML = `
             <div class="product-card-custom shadow p-3 mb-5 bg-white rounded">
                 <div class="icon-container">
                     <i class="fa-regular fa-heart fs-3"></i>
                 </div>
-                <img src="media/ImgPlaceholder.png" alt="" class="img-fluid mb-3 card-img">
+                <img src="${(element.url)}" alt="" class="img-fluid mb-3 card-img">
                 <div class="d-flex justify-content-between align-items-start">
                 <div>
                     <p class="fw-bold mb-0">${element.name}</p>
