@@ -58,6 +58,7 @@ fetch('./annunci2.json')
     setCategoryRadios()
     
     function showCards(array){
+        cardsWrapper.innerHTML=''
         array.forEach((element) => {
             let div = document.createElement('div');
             div.classList.add('col-12', 'col-md-4', 'd-flex', 'justify-content-center');
@@ -81,5 +82,64 @@ fetch('./annunci2.json')
     }
 
     showCards(data)
+
+    let radioInputs = document.querySelectorAll('.form-check-input');
+    let radioButtons = Array.from(radioInputs);
+
+    function filterBycategory() {
+        let checked = radioButtons.find((radio)=>radio.checked)
+        let categoria = checked.id 
+        if(categoria!='All'){
+            let filtered = data.filter((el)=>el.category == categoria)
+            showCards(filtered)
+        } else {
+            showCards(data)
+        }
+
+    }
+
+    radioInputs.forEach((input) => {
+        input.addEventListener('click', () =>{
+            filterBycategory()
+
+        })
+        
+    })
+
+    let inputRange = document.querySelector('.form-range')
+    let priceLabel = document.querySelector('#priceLabel')
+
+    function findMaxPrice (){
+        let maxPrice = data.map((el) => Number(el.price)).sort((a, b)=>b-a)[0]
+
+        inputRange.max = maxPrice;
+        inputRange.value = maxPrice;
+
+    }
+
+    findMaxPrice()
+
+    function filterByPrice() {
+        let filtered = data.filter((el)=> +el.price <= + inputRange.value)
+        showCards(filtered)
+
+    }
+
+    inputRange.addEventListener('input', () =>{
+        priceLabel.innerHTML = inputRange.value
+        filterByPrice()
+    })
+   
+    let wordInpunt = document.querySelector('#wordInpunt')
+
+    function filterByword(){
+        let value =wordInpunt.value
+        let filtered = data.filter((el)=> el.name.toLowerCase().includes(value.toLowerCase()))
+        showCards(filtered);
+    }
     
+    wordInpunt.addEventListener('input',() => {
+        filterByword()
+    })
+
 })
