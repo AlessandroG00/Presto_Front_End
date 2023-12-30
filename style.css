@@ -10,10 +10,10 @@
     transition: .5s;
 }
 header {
-    background: linear-gradient(135deg, #343434 25%, transparent 25%) -32px 0/ 64px 64px, linear-gradient(225deg, rgba(52,52,52,0.5) 25%, transparent 25%) -32px 0/ 64px 64px, linear-gradient(315deg, #343434 25%, transparent 25%) 0 0/ 64px 64px, linear-gradient(45deg, rgba(52,52,52,0.5) 25%, #959595 25%) 0 0/ 64px 64px;
-background-color: #959595;
-
+    background-color:#f1f5f9;
+    border-radius: 15px;
 }
+
 
 
 .btn-primary-custom {
@@ -33,8 +33,12 @@ background-color: #959595;
     height: 250px;
     background-color: darkgrey;
     border-radius: 15px;
+    
 }
 
+.card-custom2 {
+    justify-content: center;
+}
 /* section ultimi annunci */
 
 .product-card-custom {
