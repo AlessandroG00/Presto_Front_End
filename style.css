@@ -31,7 +31,7 @@ header {
 .card-custom {
     width: 250px;
     height: 250px;
-    background-color: darkgrey;
+    
     border-radius: 15px;
     
 }
@@ -106,3 +106,29 @@ height: 300px; */
 display: block;
 width: 100%;
 } */
+
+.cornice2 {
+    border: solid 4px black;
+    border-radius: 50%;
+    width: 275px;
+    height: 275px;
+}
+
+.box-foto-piccola2 {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.asus {
+    background-image: url(./media/4eb69a8f7b19fd9c81d55b70f1a4fe9d.png);
+    background-size: 135%;
+    background-position: center;
+}
+
+.ryzen {
+    background-image: url(./media/zotac_gaming_logo.png);
+    background-size: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
