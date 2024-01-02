@@ -71,11 +71,11 @@ const cardsWrapper = document.querySelector('#cardsWrapper');
 
 
 let announcements = [
-    { 'title' : 'Play-station-5', 'category' : 'Elettronica', 'price' : 500, 'url' : './media/ps5.jpg' ,},
-    { 'title' : 'Nike x Off-white', 'category' : 'Abbigliamento', 'price' : 500, 'url' : './media/shoes.jpg',},
-    { 'title' : 'Call of duty mw3', 'category' : 'Elettronica', 'price' : 40, 'url' : './media/mw3.ico',},
-    { 'title' : 'Orologio G-shock', 'category' : 'Orologi', 'price' : 300, 'url' : './media/g-shock-metal-covered-casioak-gm-2100-1aer-12957711.jpg',},
-    { 'title' : 'Babolat Technical', 'category' : 'Sport', 'price' : 300, 'url' : './media/racchetta.jpg',},
+    { 'title' : 'Kingston SSD', 'category' : 'Hard Disk', 'price' : 30, 'url' : './media/' ,},
+    { 'title' : 'Asus am5 rog', 'category' : 'Processori', 'price' : 445, 'url' : './media/',},
+    { 'title' : 'Razer Basilisk V3', 'category' : 'Accessori', 'price' : 60, 'url' : './media/mouse-razer.jpeg',},
+    { 'title' : 'Corsair tastiera', 'category' : 'Accessori', 'price' : 130, 'url' : './media/tastiera-corsair.jpeg',},
+    { 'title' : 'Cuffie Fnatic', 'category' : 'Accessori', 'price' : 113, 'url' : './media/cuffie-fnatic.jpg',},
 ]
 
 announcements.forEach((annuncio, index) => {
