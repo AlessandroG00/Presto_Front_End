@@ -111,6 +111,7 @@ fetch('./annunci2.json')
 
     let inputRange = document.querySelector('.form-range')
     let priceLabel = document.querySelector('#priceLabel')
+    
 
     function findMaxPrice (){
         let maxPrice = data.map((el) => Number(el.price)).sort((a, b)=>b-a)[0]
