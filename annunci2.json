@@ -1,379 +1,379 @@
 [
     {
         "id":1,
-        "name": "Huawei X5",
-        "category": "Elettronica",
-        "price": "120.12",
-        "url" : "https://fdn2.mobgsm.com/vv/pics/huawei/huawei-mate-x5-1.jpg"
+        "name": "Asus Prime B760-PLUS D4",
+        "category": "Shede Madri",
+        "price": "120",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1064/10647738/1800-asus-prime-b760-plus-d4.jpg"
     },
     {
         "id": 2,
-        "name": "Fiat 500",
-        "category": "Motori",
-        "price": "2000.32",
-        "url" : "https://images.autouncle.com/it/car_images/ae170a3d-5b7f-40b1-99cf-c954d28f127c_fiat-500-1-0-hybrid-cult-nuovo.jpg"
+        "name": "AMD Ryzen 7",
+        "category": "Processori",
+        "price": "481.94",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1066/10665103/1575-amd-ryzen-7-7800x3d-42-ghz-5-ghz.jpg"
 
     },
     {
         "id": 3,
-        "name": "Mazza da Baseball",
-        "category": "Sport",
-        "price": "20.15",
-        "url" : "https://www.baseballproshop.it/5886/mazza-da-baseball-serie-3-genuine-maple-i13-louisville-slugger.jpg"
+        "name": "Western Digital Black",
+        "category": "Hard Disk",
+        "price": "128.19",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1006/10060348/1635-wd-black-sn770-2tb-nvme-ssd.jpg"
 
     },
     {
         "id": 4,
-        "name": "Bilocale",
-        "category": "Immobili",
-        "price": "30000.54",
-        "url" : "https://wips.plug.it/cips/paginegiallecasa/cms/2022/11/come-arredare-un-bilocale-di-45-mq-2.jpg"
+        "name": "MSI GeForce RTX 3060",
+        "category": "Schede Grafiche",
+        "price": "312.20",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/35/357848/1157-msi-geforce-rtx-3060-ventus-2x-oc-12gb-gddr6.jpg"
 
     },
     {
         "id": 5,
-        "name": "Felpa usata",
-        "category": "Abbigliamento",
-        "price": "10.42",
-        "url" : "https://notrestreet.it/cdn/shop/products/viola_59c8ca56-82f2-4dbf-8d86-c717e6e23b31.jpg?v=1647264195"
+        "name": "Corsair Vengeance",
+        "category": "Memorie Ram",
+        "price": "120.30",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1071/10711396/1323-corsair-vengeance-rgb-ddr5-6000mhz-pc5-48000-32gb-2x16gb-cl36-negro.jpg"
 
     },
     {
         "id": 6,
-        "name": "Divani due posti",
-        "category": "Arredamento",
-        "price":"400.64",
-        "url" : "https://assets.deghi.it/_p/aft/webp/originali/divano-letto-2-posti-133x80-cm-in-tessuto-blu-con-bottoni-terat-1.jpeg"
+        "name": "Creative Sound BlasterX",
+        "category": "Schede Audio",
+        "price":"150",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/30/309881/1807-creative-sound-blasterx-ae-5-plus-tarjeta-de-sonido.jpg"
 
     },
     {
         "id": 7,
-        "name": "Pala",
-        "category": "Giardinaggio",
-        "price":"30.45",
-        "url" : "https://m.media-amazon.com/images/I/51xlQEDHPML._AC_UF1000,1000_QL80_.jpg"
+        "name": "Forgeon Tiberium",
+        "category": "Computer Case",
+        "price":"200.50",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1067/10673558/123-forgeon-tiberium-argb-cristal-templado-usb-30-negra-opiniones.jpg"
 
     },
     {
         "id": 8,
-        "name": "Master of Pupo",
-        "category": "Musica",
-        "price": "15.64",
-        "url" : "https://admin.abc.sm/upload/4952/catalogodinamico/prodotti/img_895012_085527DSCN8712.jpeg"
+        "name": "Forgeon Azoth 360",
+        "category": "Dissipatori",
+        "price": "180",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1019/10190545/1315-forgeon-azoth-360-argb-kit-de-refrigeracion-liquida-negro.jpg"
 
     },
     {
         "id": 9,
-        "name": "TV Samsung",
-        "category": "Elettronica",
-        "price": "230.42",
-        "url" : "https://www.tradeinn.com/f/13770/137706813/samsung-ue43tu8005k-43-uhd-led-tv.jpg"
+        "name": "Tempest PSU PRO 650W",
+        "category": "Alimentatori",
+        "price": "60.50",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/40/409505/1562-tempest-gaming-psu-pro-650w-80-plus-bronce.jpg"
 
     },
     {
         "id": 10,
-        "name": "Ford Puma",
-        "category": "Motori",
-        "price": "25000.02",
-        "url" : "https://www.gpas-cache.ford.com/guid/3576b600-f2de-355e-bb43-2a698f954e66.png"
+        "name": "Asrock Z790 Pro",
+        "category": "Shede Madri",
+        "price": "289.30",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1072/10729363/156-asrock-z790-pro-rs-wifi.jpg"
 
     },
     {
         "id": 11,
-        "name": "Pallone da calcio",
-        "category": "Sport",
-        "price": "30.12",
-        "url" : "https://media.gqitalia.it/photos/63be9b3faa350a6ee5f9eca4/16:9/w_2560%2Cc_limit/Puma%2520Orbita%2520winter%2520GettyImages-1245778591.jpg"
+        "name": "Intel Core i7-14700K",
+        "category": "Processori",
+        "price": "480",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1077/10779171/1341-intel-core-i7-14700k-34-56ghz-box.jpg"
 
     },
     {
         "id": 12,
-        "name": "Trilocale",
-        "category": "Immobili",
-        "price": "55000.34",
-        "url" : "https://www.abcinterni.it/immagini/bilocale-trilocale.jpg"
+        "name": "Lettore/Scrittore USB",
+        "category": "Multilettori",
+        "price": "44.50",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/27/278971/startech-lector-grabador-tarjetas-de-memoria-flash-usb-30-cfast-20.jpg"
 
     },
     {
         "id": 13,
-        "name": "Sciarpa scolorita",
-        "category": "Abbigliamento",
-        "price": "5.23",
-        "url" : "https://images.vestiairecollective.com/cdn-cgi/image/w=1246,q=70,f=auto,/produit/foulard-giorgio-armani-viola-seta-32757590-2_2.jpg"
+        "name": "Exceria Pro 2TB",
+        "category": "Hard Disk",
+        "price": "157",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/75/755130/1189-kioxia-exceria-pro-unidad-ssd-2tb-nvme-m2-2280-mejor-precio.jpg"
 
     },
     {
         "id": 14,
-        "name": "Lampada",
-        "category": "Arredamento",
-        "price": "70.65",
-        "url" : "https://www.ikea.com/ch/it/images/products/symfonisk-lampada-cassa-wi-fi-paralume-vetro-nero-bianco__1088975_pe861338_s5.jpg"
+        "name": "GeForce RTX 4070",
+        "category": "Schede Grafiche",
+        "price": "650",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1070/10706592/1556-gigabyte-geforce-rtx-4070-windforce-oc-12gb-gddr6x-dlss3.jpg"
 
     },
     {
         "id": 15,
-        "name": "Concime",
-        "category": "Giardinaggio",
-        "price": "2.45",
-        "url" : "https://www.agricereali.it/media/catalog/product/cache/ae8b0bb6226ec95ab35d8e8755b6487d/c/o/concime-universale-per-fiori-piante-da-orto-e-giardino-12-12-17-confezione-5-kg.jpg"
+        "name": "GeForce RTX 4090",
+        "category": "Schede Grafiche",
+        "price": "2318",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1059/10594905/1720-msi-geforce-rtx-4090-gaming-x-trio-24gb-gddr6x.jpg"
 
     },
     {
         "id": 16,
-        "name": "Basso nuovo",
-        "category": "Musica",
-        "price": "300.62",
-        "url" : "https://www.miletti.it/shop/3300-large_default/ibanez-gsrm20bwnf-basso-elettrico-scala-corta.jpg"
+        "name": "Delta RGB DDR4",
+        "category": "Memorie Ram",
+        "price": "55",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/35/356988/1881-team-group-delta-rgb-ddr4-3200-pc4-25600-16gb-2x8gb-cl16-blanco.jpg"
 
     },
     {
         "id": 17,
-        "name": "Cuffie Sony",
-        "category": "Elettronica",
-        "price": "120.65",
-        "url" : "https://www.tradeinn.com/f/13747/137472951/sony-cuffie-senza-fili-mdr-zx330bt.jpg"
+        "name": "Corsair iCUE 4000D",
+        "category": "Computer Case",
+        "price": "170",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1066/10660344/1498-corsair-icue-4000d-rgb-airflow-cristal-templado-usb-32-blanca.jpg"
 
     },
     {
         "id": 18,
-        "name": "Ducati Monster",
-        "category": "Motori",
-        "price": "12000.13",
-        "url" : "https://i.ebayimg.com/images/g/uXYAAOSwl7Fgovt2/s-l1200.jpg"
+        "name": "Nox Hummer",
+        "category": "Computer Case",
+        "price": "140",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/13/133287/nox-hummer-tgx-main02-rainbow.jpg"
 
     },
     {
         "id": 19,
-        "name": "Pattini",
-        "category": "Sport",
-        "price": "90.64",
-        "url" : "https://www.ilpattinoriccione.it/data/prod/img/pattini_rollerblade_rb_cruiser_nero_blu_acqua_2.jpg"
+        "name": "AMD Ryzen 9",
+        "category": "Processori",
+        "price": "573.50",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1057/10570012/1241-amd-ryzen-9-7900x-sin-cooler-47-ghz-box-sin-ventilador-comprar.jpg"
 
     },
 
     {
         "id": 21,
-        "name": "Guanti invernali",
-        "category": "Abbigliamento",
-        "price": "22.04",
-        "url" : "https://m.media-amazon.com/images/I/71JrKt1NNtL._AC_UF1000,1000_QL80_.jpg"
+        "name": "Intel Core i5",
+        "category": "Processori",
+        "price": "150",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/36/362366/1598-intel-core-i5-11400-26-ghz.jpg"
 
     },
     {
         "id": 22,
-        "name": "Scrivania in vetro",
-        "category": "Arredamento",
-        "price": "600.63",
-        "url" : "https://www.infabbrica.com/banner/49_9259.jpg"
+        "name": "Liquid Cooler 360 ",
+        "category": "Dissipatori",
+        "price": "105",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1079/10793239/1847-tempest-liquid-cooler-360-rgb-kit-de-refrigeracion-liquida-blanco-review.jpg"
 
     },
     {
         "id": 23,
-        "name": "Secchio",
-        "category": "Giardinaggio",
-        "price": "30.43",
-        "url" : "https://www.bestprato.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/e/secchio-muratore-valex.jpg"
+        "name": "Sound Blaster Z SE",
+        "category": "Schede Audio",
+        "price": "70",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/35/350971/1676-creative-sound-blaster-z-se-tarjeta-de-sonido-y-dac-pci-e-para-juegos-review.jpg"
 
     },
     {
         "id": 24,
-        "name": "Compilation Pupo",
-        "category": "Musica",
-        "price": "9.93",
-        "url" : "https://i.discogs.com/ae7ywkxiZCfce3UFRep0ucGKBKivUtB6yZIQ8AxN78M/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExOTg2/MDk5LTE1MjYwNDEx/MDAtNzEyOS5qcGVn.jpeg"
+        "name": "Tempest PSU",
+        "category": "Alimentatori",
+        "price": "50",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/17/179285/4.jpg"
 
     },
     {
         "id": 25,
-        "name": "Auricolari Sennheiser",
-        "category": "Elettronica",
-        "price": "120.93",
-        "url" : "https://m.media-amazon.com/images/I/615FSvixa3L.jpg"
+        "name": "ASUS TUF",
+        "category": "Shede Madri",
+        "price": "163.93",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1064/10647743/1188-asus-tuf-gaming-b760m-plus-wifi-d4.jpg"
 
     },
     {
         "id": 26,
-        "name": "Fiat 300",
-        "category": "Motori",
-        "price": "2560.42",
-        "url" : "https://d3nugd45vl8r88.cloudfront.net/wp-content/uploads/2023/08/29113105/2431-0.jpg"
+        "name": "Lettore di schede ",
+        "category": "Multilettori",
+        "price": "8.50",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1079/10792328/1648-vention-lector-de-tarjetas-externo-usb-30.jpg"
 
     },
     {
         "id": 27,
-        "name": "Set mazze da golf",
-        "category": "Sport",
-        "price": "4320.43",
-        "url" : "https://m.media-amazon.com/images/I/71od+xSJ9CL.jpg"
+        "name": "Corsair MP600",
+        "category": "Hard Disk",
+        "price": "150",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1069/10696896/1102-corsair-mp600-core-xt-2-tb-gen4-pcie-x4-nvme-m2.jpg"
 
     },
     {
         "id": 28,
-        "name": "Posto auto",
-        "category": "Immobili",
-        "price": "2200.63",
-        "url" : "https://media.pianetadesign.it/images/2018/05/posto-auto-in-giardino-idee-parcheggio-auto-casa.jpg"
+        "name": "AMD Ryzen 5",
+        "category": "Processori",
+        "price": "204.20",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/32/328475/1101-amd-ryzen-5-5600x-37ghz.jpg"
 
     },
     {
         "id": 29,
-        "name": "Zaino Decathlon",
-        "category": "Abbigliamento",
-        "price": "55.55",
-        "url" : "https://i5.walmartimages.com/seo/Decathlon-Quechua-20-L-Hiking-Cooler-Backpack-Blue-Multi_8b612433-bb33-4a03-ae58-aa74394214a4.fccfe7a0b01c036cf23650379d0ed5f1.jpeg"
+        "name": "Nox Hummer",
+        "category": "Computer Case",
+        "price": "80.30",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1003/10031041/1392-nox-hummer-nemesis-argb-cristal-templado-usb-30-blanca.jpg"
 
     },
     {
         "id": 30,
-        "name": "Comodino",
-        "category": "Arredamento",
-        "price": "210.12",
-        "url" : "https://cdn.garneroarredamenti.com/media/catalog/product/cache/1/image/1200x/040ec09b1e35df139433887a97daa66f/1/4/14042_206914_comodino_texel_2_cassetti_pino_bianco_quercia__5_.1655302950.jpg"
+        "name": "Corsair Vengeance ",
+        "category": "Memorie Ram",
+        "price": "120",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1071/10711396/1323-corsair-vengeance-rgb-ddr5-6000mhz-pc5-48000-32gb-2x16gb-cl36-negro.jpg"
 
     },
     {
         "id": 31,
-        "name": "Rastrello",
-        "category": "Giardinaggio",
-        "price": "5.62",
-        "url" : "https://d2j6dbq0eux0bg.cloudfront.net/images/16060083/3121677536.jpg"
+        "name": "Gigabyte M32UC",
+        "category": "Monitor",
+        "price": "550",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1046/10468895/135-gigabyte-m32uc-315-led-ultrahd-4k-160hz-freesync-premium-pro-curva.jpg"
 
     },
     {
         "id": 32,
-        "name": "Compilation Nino D'Angelo che ha un nome lungo",
-        "category": "Musica",
-        "price": "1.91",
-        "url" : "https://m.media-amazon.com/images/I/51G9bOPg8PL._UF1000,1000_QL80_.jpg"
+        "name": "PowerColor Hellhound",
+        "category": "Schede Grafiche",
+        "price": "433",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1077/10774638/1467-powercolor-hellhound-amd-radeon-rx-7700-xt-12gb-gddr6.jpg"
 
     },
     {
         "id": 33,
-        "name": "IPhone X",
-        "category": "Elettronica",
-        "price": "1300.41",
-        "url" : "https://m.media-amazon.com/images/I/5169A2xUXpL.jpg"
+        "name": "HP X27qc Monitor",
+        "category": "Monitor",
+        "price": "230.15",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/57/578273/3443-hp-x27qc-27-led-qhd-165hz-freesync-premium-curva-mejor-precio.jpg"
 
     },
     {
         "id": 34,
-        "name": "Nissan Juke",
-        "category": "Motori",
-        "price": "25420.40",
-        "url" : "https://www.gruppodemariani.it/files/2023/10/1696436608550-scaled.jpg"
+        "name": "MSI MPG",
+        "category": "Computer Case",
+        "price": "118",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/30/300828/1695-msi-mpg-gungnir-110r-cristal-templado-usb-30-argb-negro-f229f6d6-b3b5-4813-9e3e-3efaa70f31c2.jpg"
 
     },
     {
         "id": 35,
-        "name": "Guanti da palestra",
-        "category": "Sport",
-        "price": "11.54",
-        "url" : "https://ae01.alicdn.com/kf/S213d174931e042fcbc12d178008947568/MOREOK-guanti-da-palestra-per-allenamento-uomo-donna-cuscinetti-SBR-da-3MM-guanti-da-Fitness-per.jpg"
+        "name": "MSI MPG B550",
+        "category": "Shede Madri",
+        "price": "170",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/30/302203/1879-msi-mpg-b550-gaming-plus.jpg"
 
     },
 
     {
         "id": 37,
-        "name": "Scarpe Nike",
-        "category": "Abbigliamento",
-        "price": "240.33",
-        "url" : "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/a4114e49-2fe9-40a9-b20b-fd960432d780/scarpa-dunk-low-Z72R2H.png"
+        "name": "Samsung Odyssey",
+        "category": "Monitor",
+        "price": "350",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1064/10643499/1856-samsung-odyssey-g6-ls27bg650euxen-27-led-qhd-240hz-freesync-premium-pro-curva-review.jpg"
 
     },
     {
         "id": 38,
-        "name": "Poltrona",
-        "category": "Arredamento",
-        "price": "420.66",
-        "url" : "https://www.ikea.com/pt/pt/images/products/oskarshamn-poltrona-tibbleby-bege-cinzento__1118157_pe872954_s5.jpg"
+        "name": "AMD Ryzen 7 ",
+        "category": "Processori",
+        "price": "486",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/42/422968/1315-amd-ryzen-7-5700g-46ghz.jpg"
 
     },
     {
         "id": 39,
-        "name": "Semi",
-        "category": "Giardinaggio",
-        "price": "4.43",
-        "url" : "https://c8.alamy.com/compit/d4g6ac/pacchetti-di-semi-per-la-vendita-presso-un-centro-giardino-surrey-england-regno-unito-d4g6ac.jpg"
+        "name": "Lettore di schede USB",
+        "category": "Multilettori",
+        "price": "18.50",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1028/10282980/1425-approx-appcrdnib-lector-de-tarjetas-usb-20.jpg"
 
     },
     {
         "id": 40,
-        "name": "Biglietto Gods Of Metal",
-        "category": "Musica",
-        "price": "150.65",
-        "url" : "https://i.ebayimg.com/images/g/YJIAAOSwsaZf0KlB/s-l1600.jpg"
+        "name": "Ventola CPU Tempest ",
+        "category": "Dissipatori",
+        "price": "50",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1063/10633503/1475-tempest-cooler-4pipes-2x120mm-rgb-ventilador-cpu-blanco-opiniones.jpg"
 
     },
     {
         "id": 41,
-        "name": "Macbook Pro",
-        "category": "Elettronica",
-        "price": "2340.37",
-        "url" : "https://www.zdnet.com/a/img/2020/11/16/37e33024-2892-4bb7-9d21-6ac6f7544def/apple-macbook-pro-m1-2020-5.jpg"
+        "name": "HP M22f Monitor",
+        "category": "Monitor",
+        "price": "110",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/57/579884/2923-hp-m22f-215-ips-fullhd-75hz-freesync-comprar.jpg"
 
     },
     {
         "id": 42,
-        "name": "Dacia Duster",
-        "category": "Motori",
-        "price": "13350.73",
-        "url" : "https://www.gruppobonifacio.com/wp-content/uploads/2023/04/703eff3d-da58-498f-b1cc-2bb97e0a6f5a.jpg"
+        "name": "WD Elements 5TB ",
+        "category": "Hard Disk",
+        "price": "137",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/28/289295/wd-elements-5tb-25-usb-30.jpg"
 
     },
     {
         "id": 43,
-        "name": "Canoa",
-        "category": "Sport",
-        "price": "520.03",
-        "url" : "https://m.media-amazon.com/images/I/81qLhCLXLGL.jpg"
+        "name": "Corsair Dominator",
+        "category": "Memorie Ram",
+        "price": "258.03",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1066/10669992/1870-corsair-dominator-platinum-rgb-ddr5-5600mhz-64gb-2x32gb-cl40-blanca.jpg"
 
     },
     {
         "id": 44,
-        "name": "Cantina",
-        "category": "Immobili",
-        "price": "20000.12",
-        "url" : "https://static.caseroma.it/images/properties/72282/807f8da31c484d6a9ea2ee828c6a4334.jpg"
+        "name": "Philips",
+        "category": "Monitor",
+        "price": "271",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1066/10664536/1971-philips-evnia-27m2c5500w-27-led-qhd-240hz-freesync-premium-pro-curva.jpg"
 
     },
     {
         "id": 45,
-        "name": "Jeans",
-        "category": "Abbigliamento",
-        "price": "55.54",
-        "url" : "https://thumbs.dreamstime.com/b/pantaloni-di-jeans-piegati-pieghe-ordinate-isolati-su-indumenti-denim-fondo-bianco-modo-ordinato-un-tessuto-sfondo-236341378.jpg"
+        "name": "Nfortec Nervia",
+        "category": "Computer Case",
+        "price": "80.55",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1048/10488381/2321-nfortec-nervia-black-argb-cristal-templado-usb-30-negra-comprar.jpg"
 
     },
     {
         "id": 46,
-        "name": "Lampadario",
-        "category": "Arredamento",
-        "price": "280.54",
-        "url" : "https://www.homelights.nl/20275-large_default/modern-soap-bubble-chandelier.jpg"
+        "name": "Gigabyte GeForce",
+        "category": "Schede Grafiche",
+        "price": "910",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1070/10708163/1122-gigabyte-geforce-rtx-4070-ti-windforce-oc-12gb-gddr6x.jpg"
 
     },
     {
         "id": 47,
-        "name": "Trattore",
-        "category": "Giardinaggio",
-        "price": "12000.09",
-        "url" : "https://d3nugd45vl8r88.cloudfront.net/wp-content/uploads/2023/03/20094509/247-0.jpg"
+        "name": "Forgeon Bolt ",
+        "category": "Alimentatori",
+        "price": "150",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/43/433847/1664-forgeon-bolt-psu-750w-80-plus-gold-full-modular-comprar.jpg"
 
     },
     {
         "id": 48,
-        "name": "Plettro",
-        "category": "Musica",
-        "price": "0.99",
-        "url" : "https://pickmusicshop-16424.kxcdn.com/wp-content/uploads/2021/03/21712-29367-0980351976_merch_frt_001_nr_1.jpg"
+        "name": "MSI Optix",
+        "category": "Monitor",
+        "price": "220",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/1064/10642442/1379-msi-optix-g32cq4-e2-315-led-wqhd-170hz-freesync-premium-curva.jpg"
 
     },
     {
         "id": 49,
-        "name": "Modem",
-        "category": "Mimmo",
-        "price": "2.99",
-        "url" : "https://m.media-amazon.com/images/I/61zVaPXPZ0L._AC_UF1000,1000_QL80_.jpg"
+        "name": "Torre ATX",
+        "category": "Computer Case",
+        "price": "70,99",
+        "url" : "https://thumb.pccomponentes.com/w-530-530/articles/38/386829/2697-tempest-shade-rgb-torre-atx-negra-review.jpg"
 
     }
 ]

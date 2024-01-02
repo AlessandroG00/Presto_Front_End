@@ -118,7 +118,7 @@ width: 100%;
 }
 
 .asus {
-    background-image: url(./media/4eb69a8f7b19fd9c81d55b70f1a4fe9d.png);
+    background-image: url(./media/asus.png);
     background-size: 135%;
     background-position: center;
 }
@@ -129,3 +129,73 @@ width: 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
+
+/* GLITCH */
+
+.glitch-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:;
+}
+
+.glitch {
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #ffffff;
+    letter-spacing: 4px;
+    z-index: 1;
+}
+
+.glitch:before,
+.glitch:after {
+    display: block;
+    content: attr(data-glitch);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+}
+
+.glitch:before {
+    animation: glitch-color 1.0s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+    color: rgb(3, 82, 219);
+    z-index: -1;
+}
+
+.glitch:after {
+    animation: glitch-color 1.0s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+    color: #f900f9;
+    z-index: -2;
+}
+ 
+ @keyframes glitch-color {
+    0% {
+       transform: translate(0);
+    }
+ 
+    20% {
+       transform: translate(-3px, 3px);
+    }
+ 
+    40% {
+       transform: translate(-3px, -3px);
+    }
+ 
+    60% {
+       transform: translate(3px, 3px);
+    }
+ 
+    80% {
+       transform: translate(3px, -3px);
+    }
+ 
+    to {
+       transform: translate(0);
+    }
+ }
