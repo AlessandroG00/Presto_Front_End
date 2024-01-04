@@ -1,6 +1,7 @@
 * {
     font-family: 'Urbanist', sans-serif;
 }
+
 .mt-custom {
     margin-top: 100px;
 }
@@ -38,6 +39,7 @@ header {
 
 .card-custom2 {
     justify-content: center;
+    
 }
 /* section ultimi annunci */
 
