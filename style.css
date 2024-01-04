@@ -8,6 +8,9 @@
 /* Navbar */
 #navbar {
     transition: .5s;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
 }
 header {
     background-color:#f1f5f9;
@@ -38,6 +41,7 @@ header {
 }
 /* section ultimi annunci */
 
+
 .product-card-custom {
     border: 2px solid #ececec;
     padding: 20px;
@@ -67,6 +71,7 @@ header {
     background-color: #f1f5f9;
     border-radius: 50px;
     height: 60vh;
+    min-height: 500px;
 }
 
 /* review section */
@@ -144,7 +149,7 @@ width: 100%;
 
 .glitch {
     position: relative;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
     line-height: 1.2;
     color: #ffffff;
