@@ -1,28 +1,28 @@
 const navbar = document.querySelector('#navbar');
 const navLinks = document.querySelectorAll('.nav-link')
-const navBrand = document.querySelector('.navbar-brand');
+const navBrand = document.querySelector('#logo');
 const navIcon = document.querySelector('#icon-nav');
 const btnPrimary = document.querySelector('#btnPrimary');
 
 window.addEventListener('scroll',() => {
     if(window.scrollY > 30){
-        navbar.style.backgroundColor = '#2a2a2a'
+        navbar.style.backgroundColor = '#2a2a2a';
         navLinks.forEach((link) => {
-            link.style.color = 'white'
-            navIcon.style.color='white'
+            link.style.color = 'white';
+            navIcon.style.color='white';
         })
-        navBrand.style.color = 'white'
-        btnPrimary.style.backgroundColor = 'white'
-        btnPrimary.style.color= 'black'
+        navBrand.style.color = 'white';
+        btnPrimary.style.backgroundColor = 'white';
+        btnPrimary.style.color= 'black';
     } else {
-        navbar.style.backgroundColor = 'transparent'
+        navbar.style.backgroundColor = 'transparent';
         navLinks.forEach((link) => {
-            link.style.color = 'black'
+            link.style.color = 'black';
         })
-        navBrand.style.color = 'black'
-        btnPrimary.style.backgroundColor = '#2a2a2a'
-        btnPrimary.style.color= 'white'
-        navIcon.style.color='black'
+        navBrand.style.color = 'black';
+        btnPrimary.style.backgroundColor = '#2a2a2a';
+        btnPrimary.style.color= 'white';
+        navIcon.style.color='black';
     }
 })
 
@@ -81,8 +81,10 @@ fetch('./annunci2.json')
             </div>
             `
             cardsWrapper.appendChild(div)
+
         })
     }
+    
 
     showCards(data)
 

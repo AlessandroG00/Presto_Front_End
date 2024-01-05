@@ -6,23 +6,23 @@ const btnPrimary = document.querySelector('#btnPrimary');
 
 window.addEventListener('scroll',() => {
     if(window.scrollY > 30){
-        navbar.style.backgroundColor = '#2a2a2a'
+        navbar.style.backgroundColor = '#2a2a2a';
         navLinks.forEach((link) => {
-            link.style.color = 'white'
-            navIcon.style.color='white'
+            link.style.color = 'white';
+            navIcon.style.color='white';
         })
         navBrand.style.color = 'white';
-        btnPrimary.style.backgroundColor = 'white'
-        btnPrimary.style.color= 'black'
+        btnPrimary.style.backgroundColor = 'white';
+        btnPrimary.style.color= 'black';
     } else {
-        navbar.style.backgroundColor = 'transparent'
+        navbar.style.backgroundColor = 'transparent';
         navLinks.forEach((link) => {
-            link.style.color = 'black'
+            link.style.color = 'black';
         })
-        navBrand.style.color = 'black'
-        btnPrimary.style.backgroundColor = '#2a2a2a'
-        btnPrimary.style.color= 'white'
-        navIcon.style.color='black'
+        navBrand.style.color = 'black';
+        btnPrimary.style.backgroundColor = '#2a2a2a';
+        btnPrimary.style.color= 'white';
+        navIcon.style.color='black';
     }
 })
 
@@ -123,10 +123,10 @@ const reviewsWrapper = document.querySelector('#reviewsWrapper');
 
 
 let reviews = [
-    {'name' : 'Matteo', 'review' : 'Mi sono trovato benissimo con presto', 'rank' : 4.5, 'url' : '/media/Size=05.png'},
-    {'name' : 'Federico', 'review' : 'Ottimi prodotti, il servizio di spedizione veloce', 'rank' : 5, 'url' : '/media/Size=05.png'},
-    {'name' :'Alessandro', 'review' :'Assistenza clienti eccellente', 'rank' : 4, 'url' : '/media/Size=05.png'},
-    {'name' : 'Giovanni', 'review' :'Non mi è stato accettato il reso', 'rank' : 2, 'url' : '/media/Size=05.png'},
+    {'name' : 'Matteo', 'review' : 'Mi sono trovato benissimo con presto', 'rank' : 4.5, 'url' : '/media/gamer (2).png'},
+    {'name' : 'Federico', 'review' : 'Ottimi prodotti, il servizio di spedizione veloce', 'rank' : 5, 'url' : '/media/gamer (3).png'},
+    {'name' :'Alessandro', 'review' :'Assistenza clienti eccellente', 'rank' : 4, 'url' : '/media/gamer.png'},
+    {'name' : 'Chiara', 'review' :'Non mi è stato accettato il reso', 'rank' : 2, 'url' : '/media/gamer (1).png'},
 ]
 
 reviews.forEach((review) => {
@@ -150,25 +150,7 @@ reviews.forEach((review) => {
 
 let starContainer = document.querySelectorAll('.star-container')
 
-/* Primo metodo */
-// starContainer.forEach((wrapper, i) => {
-    // let voto = reviews[i].rank
-    /* stelle piene */
-    // for(let i = 1; i <= voto; i++ ) {
-        //let icon = document.createElement('i');
-         //icon.classList.add('fa-solid', 'fa-star')
-        // wrapper.appendChild(icon)
-    // }
-    /* stelle vuote */
-    //if(voto < 5){
-        //let resto = 5 - voto;
-        //for(let i = 1; i <= resto; i++ ) {
-            //let icon = document.createElement('i');
-            //icon.classList.add('fa-regular', 'fa-star')
-            //wrapper.appendChild(icon)
-        //}
-    //}
-    //})  
+
 
     function generateStar(rank){
     let result = ''

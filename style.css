@@ -19,11 +19,11 @@ header {
 }
 
 
-
 .btn-primary-custom {
     background-color: #2a2a2a;
     padding: 5px, 10px;
     border: 2px solid #2a2a2a;
+    color: #ececec;
 }
 
 .btn-primary-custom:hover {
@@ -40,6 +40,9 @@ header {
 .card-custom2 {
     justify-content: center;
     
+}
+.width-card {
+    width: 100%;
 }
 /* section ultimi annunci */
 
@@ -106,10 +109,19 @@ background-size: cover;
 height: 300px; */
 }
 
-/* .swiper-slide img {
-display: block;
-width: 100%;
-} */
+/* carousel */
+.img-carousel-1 {
+    height: 70vh;
+    object-fit: cover;
+}
+.img-carousel-2 {
+    height: 70vh;
+
+}
+.img-carousel-3 {
+    height: 70vh;
+    
+}
 
 .cornice2 {
     border: solid 4px black;
@@ -146,7 +158,7 @@ width: 100%;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color:;
+    
 }
 
 .glitch {
